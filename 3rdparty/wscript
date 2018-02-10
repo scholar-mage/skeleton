@@ -1,0 +1,7 @@
+build_dirs = [
+    'gtest',
+]
+
+def build(bld):
+    bld.recurse(build_dirs)
+

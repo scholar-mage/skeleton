@@ -1,0 +1,12 @@
+build_dirs = [
+
+]
+
+sources = [
+
+]
+
+def build(bld):
+    bld.recurse(build_dirs)
+    bld.collect('core', sources)
+

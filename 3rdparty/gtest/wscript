@@ -1,0 +1,7 @@
+build_dirs = [
+    'src',
+]
+
+def build(bld):
+    bld.recurse(build_dirs)
+

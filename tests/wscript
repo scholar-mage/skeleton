@@ -1,0 +1,12 @@
+build_dirs = [
+
+]
+
+sources = [
+    'run-tests.cpp',
+]
+
+def build(bld):
+    bld.recurse(build_dirs)
+    bld.collect('tests', sources)
+

@@ -1,0 +1,10 @@
+This repository is simply a skeleton for quickly bootstrapping new C++ projects.
+
+License: Boost Software License
+
+The following 3rd-party software is vendored in:
+* waf build system ( https://waf.io )
+* clara command-line parser ( https://github.com/catchorg/Clara ); Boost Software License
+* google-test ( https://github.com/google/googletest ); BSD 3-Clause License
+* tidy_ptr.hpp ( https://gitlab.com/redistd/redistd/blob/master/include/redi/tidy_ptr.h ); Boost Software License
+
